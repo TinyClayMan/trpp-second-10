@@ -35,7 +35,7 @@ dependencies {
 
 
 application {
-    mainClass.set("ru.mirea.trrp-second-10.Application")
+    mainClass.set("ru.mirea.trppsecond10.Application")
 }
 
 java {
@@ -62,7 +62,7 @@ javadoc {
 }
 
 shadowJar {
-    archivesBaseName = "${project.name}"
+    archivesBaseName = "${project.name} Kolosov"
     libsDirName = "${project.name}"
     classifier('')
 }

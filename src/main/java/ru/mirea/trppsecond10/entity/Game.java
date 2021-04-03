@@ -1,4 +1,4 @@
-package ru.mirea.trpp_second_10.entity;
+package ru.mirea.trppsecond10.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.opencsv.bean.CsvBindByName;
@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.util.List;
+//import java.util.List;
 
 /** Сущность игры. */
 @Getter
@@ -35,7 +35,9 @@ public class Game {
     @CsvBindByName(column = "created")
     private String created;
 
-
+    /** Получение ID.
+     * @return идентификатор
+     * */
     public Object getId() {
         return id;
     }
