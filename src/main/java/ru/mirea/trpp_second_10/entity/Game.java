@@ -36,4 +36,7 @@ public class Game {
     private String created;
 
 
+    public Object getId() {
+        return id;
+    }
 }

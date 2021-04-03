@@ -13,4 +13,6 @@ public class HealthResponse {
     /** Статус работы. */
     private String status;
 
+    public HealthResponse(String ok) {
+    }
 }
